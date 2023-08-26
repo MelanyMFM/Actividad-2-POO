@@ -1,7 +1,8 @@
 package ejercicio.pkg21;
 /**
  *Dados los tres lados de un triángulo, haga un algoritmo que encuentre: perímetro,
-semiperímetro y el área del triángulo.
+semiperímetro y el área del triángulo
+ Sebas estuvo acá.
  */
 import java.util.Scanner;
 public class Ejercicio21 {
