@@ -18,7 +18,7 @@ public class Ejercicio21 {
         
         float perimetro = lado1 + lado2 + lado3;
         float semiperimetro = perimetro / 2; //suma de los lados dividido 2
-        double altura = (2/lado1)*(Math.sqrt(semiperimetro*(semiperimetro - lado1)*(semiperimetro - lado2)*(semiperimetro - lado3))); //ni idea, me toco buscarla
+        double altura = (2/lado1)*(Math.sqrt(semiperimetro*(semiperimetro - lado1)*(semiperimetro - lado2)*(semiperimetro - lado3))); //Formula de Heron
         float area = (lado1 * (float)altura)/2;
         
         System.out.println("Perimetro = " + perimetro);
