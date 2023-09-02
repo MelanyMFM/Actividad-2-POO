@@ -5,4 +5,12 @@ public class Cuadrado {
   
   public Cuadrado(int lado) {
     this.lado = lado;
+    }
+  double calcularArea() {
+return lado*lado;
+}
+  
+double calcularPerímetro() {
+return (4*lado);
+}
 }
